@@ -1,0 +1,156 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+:root {
+  --main-color: #0aad0a;
+  --light-color: #f0f3f2;
+  --shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  --font-family: "Encode Sans Expanded", sans-serif;
+  --rating-color: #ffc908;
+}
+
+body {
+  font-family: var(--font-family) !important;
+}
+.rating-color {
+  color: var(--rating-color);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+a,
+a:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+.product:hover {
+  box-shadow: var(--shadow);
+  border: solid 1px var(--main-color);
+}
+.product .btn {
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.product:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.product {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* .containerf {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+} */
+.font-sm {
+  font-size: 14px !important;
+}
+
+.fontt-sm {
+  font-size: 13px !important;
+}
+.text-main {
+  color: var(--main-color);
+}
+.bg-main {
+  background-color: var(--main-color) !important;
+}
+.bg-main-light {
+  background-color: var(--light-color) !important;
+}
+
+.active,
+.active:hover {
+  color: #0aad0a !important;
+}
+
+.tcolor:hover,
+.mainColor {
+  color: #0aad0a;
+}
+
+.size {
+  width: 15px !important;
+}
+.bordr-main {
+  border: 1px solid #0aad0a !important;
+}
+
+.offline {
+  position: fixed;
+  background-color: #f0f3f2;
+  box-shadow: var(--shadow);
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+}
+
+.font-size {
+  font-size: 13px !important;
+}
+
+/* ------------ */
+/* index.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.root {
+  width: 100%;
+  max-width: 100vw; /* Ensures the width never exceeds the viewport width */
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cart {
+  position: relative;
+}
+.carts {
+  position: absolute;
+  top: -17px;
+  right: -5px;
+  width: 16px;
+  height: 16px;
+  color: white;
+  background-color: #0aad0a;
+  border-radius: 50%;
+  font-size: 8px;
+  text-align: center;
+  padding-top: 3.5px;
+}
+@media only screen and (max-width: 578px) {
+  .mtop {
+    margin-top: 10px;
+  }
+}
