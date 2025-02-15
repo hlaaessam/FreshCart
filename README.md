@@ -83,6 +83,3 @@ npm start
 json-server --watch server/db.json --port 5000
 ```
 
-## 📧 Contact
-For any inquiries or support, please contact us at **support@ecommerce.com**.
-
