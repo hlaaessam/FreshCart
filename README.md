@@ -84,6 +84,7 @@ json-server --watch server/db.json --port 5000
 ```
 
 
+<hr font-size=1>
 
 
 ### Technologies
@@ -95,8 +96,6 @@ json-server --watch server/db.json --port 5000
 
 
 ### Libraries
-
-Here's a structured breakdown of the libraries based on their functionality:
 
 ### 🔧 **Core Libraries**
 - **React**: `"react": "^18.3.1"`
@@ -147,5 +146,4 @@ Here's a structured breakdown of the libraries based on their functionality:
 ### Platform 
 -React
 
-<hr font-size=1>
 
