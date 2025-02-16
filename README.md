@@ -7,7 +7,7 @@ Welcome to our **E-Commerce Platform**, your one-stop shop for high-quality prod
 <table align="left">
         <thead>
             <tr>
-                <th><a href="[https://drive.google.com/file/d/1_E32N8Jy9HiJ0IZsHQHueheLrXSMcjyY/view?usp=drive_link](https://drive.google.com/file/d/1_LLS3WSDy3gknyvmJgnkIx8bj5_3Gobt/view?usp=drive_link)">Demo</a></th>
+                <th><a href="https://drive.google.com/file/d/1_LLS3WSDy3gknyvmJgnkIx8bj5_3Gobt/view?usp=drive_link">Demo</a></th>
             </tr>
         </thead>
         <tbody>	
