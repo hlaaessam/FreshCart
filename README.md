@@ -2,6 +2,23 @@
 
 Welcome to our **E-Commerce Platform**, your one-stop shop for high-quality products across multiple categories, including **Clothing, Electronics, Devices, Shoes**, and more! Our platform provides a seamless shopping experience with an intuitive UI and robust features.
 
+<p align="left"><b>Check our Demo</b></p>
+
+<table align="left">
+        <thead>
+            <tr>
+                <th><a href="[https://drive.google.com/file/d/1_E32N8Jy9HiJ0IZsHQHueheLrXSMcjyY/view?usp=drive_link](https://drive.google.com/file/d/1_LLS3WSDy3gknyvmJgnkIx8bj5_3Gobt/view?usp=drive_link)">Demo</a></th>
+            </tr>
+        </thead>
+        <tbody>	
+          <tr>
+		  <th></th>
+	  </tr>
+        </tbody>
+    </table>
+
+<br><br>
+
 ## 🌟 Features
 
 - **Home Page** – Browse the latest trends and featured products.
